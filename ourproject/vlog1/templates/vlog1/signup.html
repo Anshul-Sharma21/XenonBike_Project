@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% load static %}
+    <link rel="stylesheet" href="{% static 'style1.css'%}">
+        <title>Xenon bikes</title>
+        <script type="text/javascript">
+            function show(){
+                alert("Welcome");
+                alert("Your data Should be Stored....please remember your password");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrap">
+            <h2>Xenon bikes</h2>
+            <form method ="POST" action="{% url 'vlog1_signup' %}">
+                                    
+                {% csrf_token %}
+                <input type="text" placeholder="Full Name..."  name="d_name" id ="d_name">
+                <input type="email" placeholder="Email..."  name="d_email" id ="d_email">
+                <input type="password" placeholder="Password..."  name="d_pass" id ="d_pass">
+                <input type="submit" value="Submit" onclick="show();">
+            </form>
+        </div>
+    </body> 
+
+    
+
+</html>

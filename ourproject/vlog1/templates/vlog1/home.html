@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title> Xenon bikes | world's Fastest Bike Ever</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Xenon bike </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login/">Login
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup/">SignUp
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                  
+                    <li class=" nav-item">
+                        <a class="nav-link" href="#features">Features
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Shop
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact US
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class="wellcome">
+                <div class="wellcomeMsg">
+                    <div class="headTag">Xenon bike</div>
+                    <div class="subTag"> <h1>Welcome to Xenon Bike</h1> <br>
+                         World's Fastest Bike Ever </br></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sectionHead">Features</div>
+                        <hr>
+                        <br>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-wrench" aria-hidden="true"></i>
+                            </div>
+                            <h4>Repair</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus aliquid perferendis
+                                inventore fugit magnam quod atque dicta nemo. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                            <h4>Speed</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus aliquid perferendis
+                                inventore fugit magnam quod atque dicta nemo. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                            </div>
+                            <h4>Spare Parts</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus aliquid perferendis
+                                inventore fugit magnam quod atque dicta nemo.
+                                 </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                            </div>
+                            <h4>Tire Sales</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus aliquid perferendis
+                                inventore fugit magnam quod atque dicta nemo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="parallex-section">
+            <div class="parallex" id="parallex-set-1"></div>
+        </section>
+
+        <section id="shop">
+            <div class="container">
+                <div class="sectionHead">Shop</div>
+                <hr>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{% static './img/image21.jpg'%}">
+                            </div>
+                            <div class="item-box-head">Bikes</div>
+                            <div class="item-box-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                            <button class="btn item-box-btn">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{% static './img/image11.jpg'%}">
+                            </div>
+                            <div class="item-box-head">Helmets</div>
+                            <div class="item-box-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                            <button class="btn item-box-btn">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{% static './img/image31.jpg'%}">
+                            </div>
+                            <div class="item-box-head">Wheels</div>
+                            <div class="item-box-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                            <button class="btn item-box-btn">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{% static './img/image41.jpg'%}">
+                            </div>
+                            <div class="item-box-head">Cloths</div>
+                            <div class="item-box-sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                            <button class="btn item-box-btn">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sectionSubHead">Newly Arrived</div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{% static './img/image11.jpg'%}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    INR XX,XXX/-
+                                    <span style="color:rgb(173, 11, 11)">(39% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{% static './img/image31.jpg'%}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    INR XX,XXX/-
+                                    <span style="color:rgb(173, 11, 11)">(27% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{% static './img/image11.jpg'%}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    INR XX,XXX/-
+                                    <span style="color:rgb(173, 11, 11)">(32% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{% static './img/image31.jpg'%}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    INR XX,XXX/-
+                                    <span style="color:rgb(173, 11, 11)">(45% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{% static './img/image11.jpg'%}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    INR XX,XXX/-
+                                    <span style="color:rgb(173, 11, 11)">(17% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{% static './img/image41.jpg'%}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    INR XX,XXX/-
+                                    <span style="color:rgb(173, 11, 11)">(21% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="parallex-section">
+            <div class="parallex" id="parallex-set-3"></div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="sectionHead">About Us</div>
+                <hr>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nam consectetur saepe recusandae maiores a, ipsum aut at, alias magni, optio temporibus quaerat sequi pariatur fugit quos facere dolorum non.
+                Modi possimus velit ad magnam repellendus voluptates minima obcaecati deleniti veniam dicta natus consequuntur molestiae repudiandae perspiciatis officia similique, explicabo sapiente excepturi facilis. Dolorum doloremque dolor, eligendi accusantium repellendus harum.
+                Fugit, in? Sit similique maiores iure! Eum accusamus blanditiis repellendus iure libero, ipsam corrupti quasi earum a rem sed nihil ullam corporis fugiat deserunt facilis, quisquam dolore impedit. Libero, perferendis!
+                Itaque quisquam mollitia accusantium sequi dolorum magni tempore rem suscipit, numquam pariatur incidunt ducimus quis delectus fuga dolor cupiditate asperiores vitae libero distinctio ipsum modi. Aliquid eveniet impedit illum aliquam!
+                Hic, recusandae animi architecto aliquid placeat asperiores. Veritatis quas quos sed placeat dolorem sit fugiat molestias maxime iure, facilis nesciunt nulla ipsa nostrum nemo corporis animi inventore. Id, doloribus voluptatum?
+                Eaque reprehenderit placeat doloremque, officia ratione minima? Earum quibusdam labore ipsum fuga nisi saepe voluptas, nostrum ad! Minima dolores eius distinctio natus. Laborum ea veniam velit eaque molestiae maxime voluptatibus!
+                Repellendus sequi sapiente, quibusdam explicabo dolores nihil cumque quos itaque voluptas, corporis, saepe illo? Eaque natus, delectus repellat dolorum, blanditiis aliquam, facilis quod at ratione sint laboriosam quis tempora mollitia.
+                Nam, dolorum commodi assumenda aperiam dolor dolore illum numquam iure ut a doloremque quis optio vitae minima sed earum obcaecati architecto possimus amet harum qui, nulla perspiciatis libero. Odit, debitis.
+                In maxime magnam nostrum voluptatem neque asperiores quibusdam, eveniet reprehenderit porro ratione numquam veniam impedit quia quod dolore labore architecto dolor odio. Modi doloribus aspernatur aperiam et, molestiae atque pariatur!
+                Porro sequi ut itaque sit illo amet, necessitatibus blanditiis doloribus, eius aperiam asperiores possimus quaerat commodi nostrum alias reiciendis? Inventore blanditiis debitis esse placeat corporis eligendi, ullam explicabo. Est, quod!</p>
+
+               
+            </div>
+        </section>
+
+
+        <section class="parallex-section">
+            <div class="parallex" id="parallex-set-2"></div>
+        </section>
+
+
+
+        <section id="contact">
+            <div class="container">
+                <div class="sectionHead">Contact Us</div>
+                <hr>
+                <br>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-2">
+                                <h4 class="sectionSubSubHead text-capitalize">Send A message</h4>
+                                <form method ="POST" action="{% url 'vlog1_contact' %}">
+                                    
+                                    {% csrf_token %}
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required placeholder="Name*" name="c_name" id ="c_name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" required placeholder="Email*"name="c_email" id ="c_email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" required placeholder="Phone*"name="c_phone" id ="c_phone">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea type="text" class="form-control" required placeholder="Message*"name="c_msg" id ="c_msg"
+                                        ></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-info" type="submit">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="sectionSubSubHead">Mail Us</h4>
+                        <ul class="list-unstyled">
+                            <li>Xenon bike Pvt. Ltd.</li>
+                            <li>Mohali, Punjab</li>
+                            <li>Punjab, India</li>
+                            <li>Pin: 140XXX </li>
+                            <li>Phone: +91 9xxxxxxxx</li>
+                            <li>Email: example@domain.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

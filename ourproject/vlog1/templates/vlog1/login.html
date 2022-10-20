@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {% load static %}
+    <link rel="stylesheet" href="{% static 'style1.css'%}">
+        <title>Xenon bikes</title>
+        <script type="text/javascript">
+            function show(){
+                alert("Welcome");
+                alert("Your data Should be Stored....please remember your password");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrap">
+            <h2>Xenon bikes</h2>
+            <form>
+                <input type="email" placeholder="Email..." required>
+                <input type="password" placeholder="Password..." required>
+                <input type="submit" value="Submit" onclick="show();">
+            </form>
+        </div>
+    </body> 
+
+    
+
+</html>
